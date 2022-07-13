@@ -16,6 +16,9 @@
     <Filter Include="Source Files\01. 네트워크 프로그래밍과 소켓의 이해">
       <UniqueIdentifier>{3b5f771a-9d14-4f31-add3-4ef13fe51611}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Source Files\02. 소켓의 타입과 프로토콜의 설정">
+      <UniqueIdentifier>{444ef289-f6dc-45a0-966f-fae1c2d2b727}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="hello_server_win.c">
@@ -29,6 +32,18 @@
     </ClCompile>
     <ClCompile Include="low_read.c">
       <Filter>Source Files\01. 네트워크 프로그래밍과 소켓의 이해</Filter>
+    </ClCompile>
+    <ClCompile Include="tcp_client_win.c">
+      <Filter>Source Files\02. 소켓의 타입과 프로토콜의 설정</Filter>
+    </ClCompile>
+    <ClCompile Include="tcp_server_win.c">
+      <Filter>Source Files\02. 소켓의 타입과 프로토콜의 설정</Filter>
+    </ClCompile>
+    <ClCompile Include="tcp_server_win_2.c">
+      <Filter>Source Files\02. 소켓의 타입과 프로토콜의 설정</Filter>
+    </ClCompile>
+    <ClCompile Include="tcp_client_win_2.c">
+      <Filter>Source Files\02. 소켓의 타입과 프로토콜의 설정</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
