@@ -19,6 +19,9 @@
     <Filter Include="Source Files\02. 소켓의 타입과 프로토콜의 설정">
       <UniqueIdentifier>{444ef289-f6dc-45a0-966f-fae1c2d2b727}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Source Files\03. 주소체계와 데이터 정렬">
+      <UniqueIdentifier>{66b9bef7-0d86-4d54-8ad6-369798dd3399}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="hello_server_win.c">
@@ -44,6 +47,27 @@
     </ClCompile>
     <ClCompile Include="tcp_client_win_2.c">
       <Filter>Source Files\02. 소켓의 타입과 프로토콜의 설정</Filter>
+    </ClCompile>
+    <ClCompile Include="endian_conv.c">
+      <Filter>Source Files\03. 주소체계와 데이터 정렬</Filter>
+    </ClCompile>
+    <ClCompile Include="inet_addr.c">
+      <Filter>Source Files\03. 주소체계와 데이터 정렬</Filter>
+    </ClCompile>
+    <ClCompile Include="inet_aton.c">
+      <Filter>Source Files\03. 주소체계와 데이터 정렬</Filter>
+    </ClCompile>
+    <ClCompile Include="inet_ntoa.c">
+      <Filter>Source Files\03. 주소체계와 데이터 정렬</Filter>
+    </ClCompile>
+    <ClCompile Include="endian_conv_win.c">
+      <Filter>Source Files\03. 주소체계와 데이터 정렬</Filter>
+    </ClCompile>
+    <ClCompile Include="inet_adrconv_win.c">
+      <Filter>Source Files\03. 주소체계와 데이터 정렬</Filter>
+    </ClCompile>
+    <ClCompile Include="conv_addr_win.c">
+      <Filter>Source Files\03. 주소체계와 데이터 정렬</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
