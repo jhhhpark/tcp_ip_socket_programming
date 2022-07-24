@@ -22,6 +22,9 @@
     <Filter Include="Source Files\03. 주소체계와 데이터 정렬">
       <UniqueIdentifier>{66b9bef7-0d86-4d54-8ad6-369798dd3399}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Source Files\04. TCP기반 서버/클라이언트 1">
+      <UniqueIdentifier>{269a3b76-6fcf-41ec-87c0-74a5d213e328}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="hello_server_win.c">
@@ -68,6 +71,30 @@
     </ClCompile>
     <ClCompile Include="conv_addr_win.c">
       <Filter>Source Files\03. 주소체계와 데이터 정렬</Filter>
+    </ClCompile>
+    <ClCompile Include="hello_server.c">
+      <Filter>Source Files\04. TCP기반 서버/클라이언트 1</Filter>
+    </ClCompile>
+    <ClCompile Include="hello_client.c">
+      <Filter>Source Files\04. TCP기반 서버/클라이언트 1</Filter>
+    </ClCompile>
+    <ClCompile Include="echo_server.c">
+      <Filter>Source Files\04. TCP기반 서버/클라이언트 1</Filter>
+    </ClCompile>
+    <ClCompile Include="echo_client.c">
+      <Filter>Source Files\04. TCP기반 서버/클라이언트 1</Filter>
+    </ClCompile>
+    <ClCompile Include="echo_server_win.c">
+      <Filter>Source Files\04. TCP기반 서버/클라이언트 1</Filter>
+    </ClCompile>
+    <ClCompile Include="echo_client_win.c">
+      <Filter>Source Files\04. TCP기반 서버/클라이언트 1</Filter>
+    </ClCompile>
+    <ClCompile Include="hello_server_win_4.c">
+      <Filter>Source Files\04. TCP기반 서버/클라이언트 1</Filter>
+    </ClCompile>
+    <ClCompile Include="hello_client_win_4.c">
+      <Filter>Source Files\04. TCP기반 서버/클라이언트 1</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
