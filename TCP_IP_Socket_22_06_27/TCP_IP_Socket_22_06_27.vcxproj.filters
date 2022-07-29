@@ -25,6 +25,9 @@
     <Filter Include="Source Files\04. TCP기반 서버/클라이언트 1">
       <UniqueIdentifier>{269a3b76-6fcf-41ec-87c0-74a5d213e328}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Source Files\05. TCP기반 서버/클라이언트 2">
+      <UniqueIdentifier>{c6dbb85d-1bef-49b1-8af2-7dbbec5a8ceb}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="hello_server_win.c">
@@ -95,6 +98,21 @@
     </ClCompile>
     <ClCompile Include="hello_client_win_4.c">
       <Filter>Source Files\04. TCP기반 서버/클라이언트 1</Filter>
+    </ClCompile>
+    <ClCompile Include="echo_client_win_2.c">
+      <Filter>Source Files\05. TCP기반 서버/클라이언트 2</Filter>
+    </ClCompile>
+    <ClCompile Include="test_calc_server_win.c">
+      <Filter>Source Files\05. TCP기반 서버/클라이언트 2</Filter>
+    </ClCompile>
+    <ClCompile Include="test_calc_client_win.c">
+      <Filter>Source Files\05. TCP기반 서버/클라이언트 2</Filter>
+    </ClCompile>
+    <ClCompile Include="op_client.c">
+      <Filter>Source Files\05. TCP기반 서버/클라이언트 2</Filter>
+    </ClCompile>
+    <ClCompile Include="op_server.c">
+      <Filter>Source Files\05. TCP기반 서버/클라이언트 2</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
