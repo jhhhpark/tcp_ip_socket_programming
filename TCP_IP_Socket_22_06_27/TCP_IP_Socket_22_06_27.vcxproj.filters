@@ -114,5 +114,17 @@
     <ClCompile Include="op_server.c">
       <Filter>Source Files\05. TCP기반 서버/클라이언트 2</Filter>
     </ClCompile>
+    <ClCompile Include="tcp_server_5_win.c">
+      <Filter>Source Files\05. TCP기반 서버/클라이언트 2</Filter>
+    </ClCompile>
+    <ClCompile Include="tcp_client_5_win.c">
+      <Filter>Source Files\05. TCP기반 서버/클라이언트 2</Filter>
+    </ClCompile>
+    <ClCompile Include="tcp_server_file_win.c">
+      <Filter>Source Files\05. TCP기반 서버/클라이언트 2</Filter>
+    </ClCompile>
+    <ClCompile Include="tcp_client_file_win.c">
+      <Filter>Source Files\05. TCP기반 서버/클라이언트 2</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
